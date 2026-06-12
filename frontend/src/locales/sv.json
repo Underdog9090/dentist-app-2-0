@@ -1,0 +1,446 @@
+{
+  "nav": {
+    "home": "Hem",
+    "about": "Om oss",
+    "services": "Tjänster",
+    "dentalHealth": "Tandhälsa",
+    "resources": "Resurser",
+    "contact": "Kontakt",
+    "bookAppointment": "Boka tid",
+    "login": "Logga in",
+    "register": "Registrera",
+    "myAppointments": "Mina tider",
+    "profile": "Profil",
+    "staffDashboard": "Personalpanel",
+    "dashboard": "Kontrollpanel",
+    "staff": "Personal",
+    "messages": "Meddelanden",
+    "logout": "Logga ut",
+    "welcome": "Välkommen",
+    "skipToContent": "Hoppa till huvudinnehåll"
+  },
+  "home": {
+    "heroTitle": "Tandvård",
+    "heroSubtitle": "Boka ditt besök idag",
+    "heroText": "Boka en tid med vår vänliga tandläkare.",
+    "bookNow": "Boka nu",
+    "dentalServices": "Tandvårdstjänster",
+    "whyChooseUs": "Varför välja oss",
+    "expertDentists": {
+      "title": "Erfarna tandläkare",
+      "description": "Vårt team av erfarna yrkesverksamma är dedikerade till att erbjuda bästa möjliga tandvård."
+    },
+    "modernTechnology": {
+      "title": "Modern teknologi",
+      "description": "Toppmodern utrustning och tekniker för optimal tandvård."
+    },
+    "easyBooking": {
+      "title": "Enkel bokning",
+      "description": "Enkelt onlinebokningssystem för din bekvämlighet."
+    }
+  },
+  "services": {
+    "title": "Våra Tandvårdstjänster",
+    "subtitle": "Vi erbjuder ett brett utbud av tandvårdstjänster för att möta alla dina munhälsobehov. Vårt erfarna team använder den senaste tekniken för att ge bästa möjliga vård.",
+    "cleaning": {
+      "title": "Tandstädning",
+      "description": "Professionell tandstädning för att ta bort plack och tandsten, förebygga tandköttssjukdomar och upprätthålla munhälsan.",
+      "duration": "45-60 minuter",
+      "priceRange": "750-2000 kr",
+      "benefits": [
+        "Förebygger tandköttssjukdomar",
+        "Friskare andedräkt",
+        "Ljusare leende",
+        "Tidig upptäckt av tandproblem"
+      ],
+      "faq": {
+        "frequency": {
+          "question": "Hur ofta ska jag gå på tandstädning?",
+          "answer": "De flesta tandläkare rekommenderar professionell tandstädning var 6:e månad."
+        },
+        "pain": {
+          "question": "Gör tandstädning ont?",
+          "answer": "Behandlingen är i allmänhet smärtfri, men du kan uppleva viss känslighet."
+        }
+      }
+    },
+    "braces": {
+      "title": "Tandställning & Ortodonti",
+      "description": "Omfattande ortodontisk behandling för att räta till tänder och förbättra ditt leende.",
+      "duration": "18-24 månader",
+      "priceRange": "30 000-70 000 kr",
+      "benefits": [
+        "Förbättrad tandställning",
+        "Bättre munhälsa",
+        "Förbättrad tuggfunktion",
+        "Ökat självförtroende"
+      ],
+      "faq": {
+        "types": {
+          "question": "Vilka typer av tandställning finns tillgängliga?",
+          "answer": "Vi erbjuder traditionella metallbrackets, keramiska brackets och genomskinliga aligners."
+        },
+        "duration": {
+          "question": "Hur länge behöver jag ha tandställning?",
+          "answer": "Behandlingstiden varierar, vanligtvis 18-24 månader beroende på ditt fall."
+        }
+      }
+    },
+    "whitening": {
+      "title": "Tandblekning",
+      "description": "Professionell tandblekningsbehandling för att ljusna ditt leende och ta bort fläckar.",
+      "duration": "1-2 timmar",
+      "priceRange": "3000-6000 kr",
+      "benefits": [
+        "Ljusare leende",
+        "Tar bort fläckar",
+        "Ökar självförtroendet",
+        "Långvariga resultat"
+      ],
+      "faq": {
+        "results": {
+          "question": "Hur länge varar blekningsresultaten?",
+          "answer": "Resultaten varar vanligtvis 6-12 månader med korrekt underhåll."
+        },
+        "safety": {
+          "question": "Är tandblekning säkert?",
+          "answer": "Ja, när det utförs av en tandvårdsexpert är tandblekning säkert och effektivt."
+        }
+      }
+    },
+    "implants": {
+      "title": "Tandimplantat",
+      "description": "Permanent lösning för saknade tänder med titanimplantat som ser och känns ut som naturliga tänder.",
+      "duration": "3-6 månader",
+      "priceRange": "30 000-50 000 kr per implantat",
+      "benefits": [
+        "Permanent lösning",
+        "Naturligt utseende och känsla",
+        "Bevakar käkbenet",
+        "Återställer full tuggfunktion"
+      ],
+      "faq": {
+        "lifespan": {
+          "question": "Hur länge varar tandimplantat?",
+          "answer": "Med korrekt vård kan tandimplantat vara livslånga."
+        },
+        "pain": {
+          "question": "Är implantatbehandlingen smärtsam?",
+          "answer": "Behandlingen utförs under bedövning, så du kommer inte att känna smärta under processen."
+        }
+      }
+    },
+    "emergency": {
+      "title": "Akutvård",
+      "description": "Omedelbar tandvård för akuta situationer som svår smärta, brutna tänder eller tandtrauma.",
+      "duration": "Varierar efter fall",
+      "priceRange": "1000-5000 kr",
+      "benefits": [
+        "Omedelbar lättnad",
+        "Förebygger komplikationer",
+        "Tillgänglig dygnet runt",
+        "Expert akutvård"
+      ],
+      "faq": {
+        "what": {
+          "question": "Vad utgör en tandvårdsnödsituation?",
+          "answer": "Svår smärta, brutna tänder, förlorade fyllningar eller andra tillstånd som orsakar betydande obehag."
+        },
+        "hours": {
+          "question": "Erbjuder ni akutvård utanför ordinarie öppettider?",
+          "answer": "Ja, vi tillhandahåller 24/7 akutvård för våra patienter."
+        }
+      }
+    },
+    "showBeforeAfter": "Visa Före/Efter",
+    "hideBeforeAfter": "Dölj Före/Efter",
+    "before": "Före",
+    "after": "Efter",
+    "bookNow": "Boka Nu",
+    "showDetails": "Visa Detaljer",
+    "hideDetails": "Dölj Detaljer",
+    "benefits": "Fördelar",
+    "faq": "FAQ",
+    "contactUs": "Kontakta Oss",
+    "notFound": "Hittar du inte det du söker? Kontakta oss för att lära dig mer om våra tjänster."
+  },
+  "about": {
+    "title": "Om vår klinik",
+    "mission": "På Smile Bright är vårt uppdrag att erbjuda tandvård av högsta kvalitet i en vänlig och modern miljö. Vi tror att alla förtjänar ett hälsosamt och självsäkert leende.",
+    "history": "Grundad 2010 har vår klinik vuxit till ett betrott tandvårdshus för familjer i vårt samhälle. Vi kombinerar mångårig erfarenhet med den senaste tekniken för att säkerställa din komfort och vård.",
+    "facilityImageAlt": "Vår moderna tandvårdsklinik",
+    "facility": {
+      "title": "Modern anläggning & Teknologi",
+      "description": "Vår klinik har toppmodern utrustning, digitala röntgenbilder och en avslappnande miljö utformad för din komfort och säkerhet."
+    },
+    "team": {
+      "title": "Möt vårt team",
+      "dentist1Alt": "Dr. Sarah Johnson - Överläkare",
+      "dentist1Role": "Överläkare - 15 års erfarenhet",
+      "dentist2Alt": "Dr. Michael Chen - Ortodontist",
+      "dentist2Role": "Ortodontist - Specialist inom tandställning och aligners"
+    },
+    "certifications": {
+      "title": "Certifieringar & Auktoriseringar",
+      "list": [
+        "Certifierad av National Dental Association",
+        "Medlem i International Dental Society",
+        "Mottagare av 2022 Excellence in Patient Care Award"
+      ]
+    },
+    "location": {
+      "title": "Vår plats",
+      "address": "123 Smile Street, Dental City, Land",
+      "mapAlt": "Karta som visar vår kliniks plats"
+    }
+  },
+  "contact": {
+    "title": "Kontakta Oss",
+    "subtitle": "Kontakta oss för eventuella frågor eller funderingar om din tandvård.",
+    "form": {
+      "title": "Skicka Ett Meddelande",
+      "name": "Namn",
+      "email": "E-post",
+      "phone": "Telefon",
+      "subject": "Ämne",
+      "message": "Meddelande",
+      "send": "Skicka Meddelande",
+      "success": "Tack för ditt meddelande! Vi återkommer så snart som möjligt.",
+      "error": "Vänligen fyll i alla fält."
+    },
+    "info": {
+      "address": "Adress",
+      "phone": "Telefon",
+      "email": "E-post",
+      "hours": "Öppettider",
+      "emergency": "Akutkontakt"
+    }
+  },
+  "resources": {
+    "title": "Patientresurser",
+    "desc": "Allt du behöver veta om din tandvårdsresa med oss. Ladda ner formulär, lär dig om försäkring och hitta användbara tandvårdstips.",
+    "helpful": "Var detta till hjälp?"
+  },
+  "patientResources": {
+    "title": "Patientresurser",
+    "subtitle": "Allt du behöver veta om din tandvårdsresa med oss. Ladda ner formulär, lär dig om försäkring och hitta hjälpsamma tandvårdstips.",
+    "home": "Hem",
+    "resources": "Patientresurser",
+    "search": {
+      "placeholder": "Sök resurser...",
+      "noResults": "Inga resurser hittades som matchar din sökning."
+    },
+    "categories": {
+      "all": "Alla Kategorier",
+      "forms": "Formulär",
+      "insurance": "Försäkring",
+      "care": "Tandvård",
+      "faq": "Vanliga Frågor",
+      "emergency": "Akutvård"
+    },
+    "recentlyViewed": "Nyligen Visade",
+    "buttons": {
+      "viewResources": "Visa Resurser",
+      "hideResources": "Dölj Resurser",
+      "viewOnline": "Visa Online",
+      "downloadPDF": "Ladda ner PDF",
+      "contactUs": "Kontakta Oss"
+    },
+    "help": {
+      "title": "Behöver du hjälp med att hitta något?",
+      "subtitle": "Kontakta vårt kontor för assistans."
+    },
+    "feedback": {
+      "title": "Var detta hjälpsamt?",
+      "thankYou": "Tack för din feedback!"
+    },
+    "forms": {
+      "title": "Nya Patientformulär",
+      "description": "Ladda ner och fyll i våra nya patientformulär före ditt första besök.",
+      "items": [
+        {
+          "name": "Patientregistreringsformulär",
+          "description": "Fyll i detta formulär för att registrera dig som ny patient"
+        },
+        {
+          "name": "Medicinsk Historikformulär",
+          "description": "Ange din medicinska historik för bättre vård"
+        },
+        {
+          "name": "Försäkringsformulär",
+          "description": "Skicka in dina försäkringsuppgifter"
+        }
+      ]
+    },
+    "insurance": {
+      "title": "Försäkring & Betalning",
+      "description": "Information om accepterade försäkringsplaner och betalningsalternativ.",
+      "items": [
+        {
+          "name": "Accepterade Försäkringsplaner",
+          "description": "Se vår lista över accepterade försäkringsbolag"
+        },
+        {
+          "name": "Betalningsplaner",
+          "description": "Lär dig om våra flexibla betalningsalternativ"
+        },
+        {
+          "name": "Finansieringsalternativ",
+          "description": "Utforska finansieringslösningar för din tandvård"
+        }
+      ]
+    },
+    "care": {
+      "title": "Tandvårdstips",
+      "description": "Hjälpsamma tips och guider för att upprätthålla god munhälsa.",
+      "items": [
+        {
+          "name": "Daglig Munvårdsguide",
+          "description": "Lär dig de bästa rutinerna för daglig munvård"
+        },
+        {
+          "name": "Barns Tandvård",
+          "description": "Särskilda vårdtips för barns tandhälsa"
+        },
+        {
+          "name": "Tandvård för Äldre",
+          "description": "Tandvårdsvägledning för äldre"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Vanliga Frågor",
+      "description": "Vanliga frågor om våra tjänster och behandlingar.",
+      "items": [
+        {
+          "name": "Allmänna Frågor",
+          "description": "Vanliga frågor om vår tandvårdsklinik"
+        },
+        {
+          "name": "Frågor om Behandlingar",
+          "description": "Frågor om specifika tandvårdsbehandlingar"
+        },
+        {
+          "name": "Försäkringsfrågor",
+          "description": "Vanliga frågor om försäkring"
+        }
+      ]
+    },
+    "emergency": {
+      "title": "Akutvård",
+      "description": "Vad du ska göra vid en tandvårdsnödsituation.",
+      "items": [
+        {
+          "name": "Akutkontaktinformation",
+          "description": "Dygnet-runt akutkontaktinformation"
+        },
+        {
+          "name": "Vanliga Akutsituationer",
+          "description": "Hur du hanterar vanliga tandvårdsnödsituationer"
+        },
+        {
+          "name": "Vård utanför Öppettider",
+          "description": "Information om vår akutvård utanför öppettider"
+        }
+      ]
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Logga in på ditt konto",
+      "email": "E-postadress",
+      "password": "Lösenord",
+      "remember": "Kom ihåg mig",
+      "forgot": "Glömt lösenord?",
+      "submit": "Logga in",
+      "noAccount": "Har du inget konto?",
+      "register": "Skapa ett nytt konto",
+      "signingIn": "Loggar in...",
+      "emailRequired": "E-post krävs",
+      "emailInvalid": "Ogiltig e-postadress",
+      "passwordRequired": "Lösenord krävs",
+      "passwordLength": "Lösenordet måste vara minst 6 tecken"
+    },
+    "register": {
+      "title": "Skapa ditt konto",
+      "name": "Fullständigt Namn",
+      "email": "E-postadress",
+      "password": "Lösenord",
+      "confirmPassword": "Bekräfta Lösenord",
+      "phone": "Telefonnummer",
+      "dob": "Födelsedatum",
+      "submit": "Skapa konto",
+      "hasAccount": "Har du redan ett konto?",
+      "login": "Logga in på ditt befintliga konto",
+      "registering": "Skapar konto...",
+      "nameRequired": "Fullständigt namn krävs",
+      "nameLength": "Namnet måste vara minst 3 tecken",
+      "nameInvalid": "Namnet kan bara innehålla bokstäver, siffror och understreck",
+      "emailRequired": "E-post krävs",
+      "emailInvalid": "Ogiltig e-postadress",
+      "passwordRequired": "Lösenord krävs",
+      "passwordLength": "Lösenordet måste vara minst 6 tecken",
+      "passwordInvalid": "Lösenordet måste innehålla minst en stor bokstav, en liten bokstav och en siffra",
+      "confirmPasswordRequired": "Bekräfta ditt lösenord",
+      "passwordsDoNotMatch": "Lösenorden matchar inte",
+      "phoneRequired": "Telefonnummer krävs",
+      "phoneInvalid": "Ange ett giltigt telefonnummer",
+      "dobRequired": "Födelsedatum krävs",
+      "dobInvalid": "Ange ett giltigt födelsedatum",
+      "registrationFailed": "Registreringen misslyckades. Försök igen."
+    }
+  },
+  "dentalHealth": {
+    "title": "Tandhälsa Utbildning",
+    "procedures": {
+      "title": "Vanliga Behandlingar Förklarade",
+      "items": [
+        "Tandrensning: Tar bort plack och tandsten för ett friskt leende.",
+        "Fyllningar: Reparerar hål och återställer tandfunktion.",
+        "Kronor: Skyddar och stärker skadade tänder.",
+        "Implantat: Ersätter saknade tänder med naturliga resultat.",
+        "Tandställning: Justerar tänder och förbättrar bettet."
+      ]
+    },
+    "hygiene": {
+      "title": "Tips för Munhygien",
+      "items": [
+        "Borsta två gånger dagligen med fluoridhaltig tandkräm.",
+        "Använd tandtråd varje dag för att ta bort plack mellan tänderna.",
+        "Begränsa söta snacks och drycker.",
+        "Besök din tandläkare regelbundet för kontroller och rengöring.",
+        "Byt tandborste var 3-4:e månad."
+      ]
+    },
+    "children": {
+      "title": "Barns Tandvårdsguide",
+      "items": [
+        "Börja borsta så fort den första tanden kommer.",
+        "Använd en ärts storlek fluoridhaltig tandkräm för barn över 3 år.",
+        "Uppmuntra hälsosamma snacks som frukt och grönsaker.",
+        "Planera det första tandläkarbesöket vid 1 års ålder.",
+        "Lär ut korrekt borstning och tandtrådsanvändning tidigt."
+      ]
+    },
+    "seniors": {
+      "title": "Tandvårdsguide för Seniorer",
+      "items": [
+        "Upprätthåll regelbundna tandläkarkontroller och rengöring.",
+        "Rengör proteser eller tandapparater dagligen.",
+        "Håll dig hydrerad för att förhindra torr mun.",
+        "Var uppmärksam på tecken på tandköttssjukdom eller muncancer.",
+        "Hantera mediciner som kan påverka munhälsan."
+      ]
+    },
+    "emergency": {
+      "title": "Akut Tandvårdsguide",
+      "items": [
+        "För en utslagen tand, håll den fuktig och sök tandläkare omedelbart.",
+        "Vid svår tandvärk, skölj med varmt vatten och kontakta din tandläkare.",
+        "För trasiga tandställningar eller trådar, täck skarpa kanter och sök tandvård.",
+        "För förlorade fyllningar eller kronor, använd tandcement och boka ett besök.",
+        "Ring din tandläkare eller akutnummer för brådskande tandproblem."
+      ]
+    }
+  }
+} 

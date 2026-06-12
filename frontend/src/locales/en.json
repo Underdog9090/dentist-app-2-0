@@ -1,0 +1,446 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "dentalHealth": "Dental Health",
+    "resources": "Resources",
+    "contact": "Contact",
+    "bookAppointment": "Book Appointment",
+    "login": "Login",
+    "register": "Register",
+    "myAppointments": "My Appointments",
+    "profile": "Profile",
+    "staffDashboard": "Staff Dashboard",
+    "dashboard": "Dashboard",
+    "staff": "Staff",
+    "messages": "Messages",
+    "logout": "Logout",
+    "welcome": "Welcome",
+    "skipToContent": "Skip to main content"
+  },
+  "home": {
+    "heroTitle": "Dental",
+    "heroSubtitle": "Book Your Visit Today",
+    "heroText": "Schedule an appointment with our friendly dentist.",
+    "bookNow": "Book Now",
+    "dentalServices": "Dental Services",
+    "whyChooseUs": "Why Choose Us",
+    "expertDentists": {
+      "title": "Expert Dentists",
+      "description": "Our team of experienced professionals is dedicated to providing the best dental care."
+    },
+    "modernTechnology": {
+      "title": "Modern Technology",
+      "description": "State-of-the-art equipment and techniques for optimal dental care."
+    },
+    "easyBooking": {
+      "title": "Easy Booking",
+      "description": "Simple online booking system for your convenience."
+    }
+  },
+  "services": {
+    "title": "Our Dental Services",
+    "subtitle": "We offer a comprehensive range of dental services to meet all your oral health needs. Our experienced team uses the latest technology to provide the best care possible.",
+    "cleaning": {
+      "title": "Teeth Cleaning",
+      "description": "Professional dental cleaning to remove plaque and tartar, preventing gum disease and maintaining oral health.",
+      "duration": "45-60 minutes",
+      "priceRange": "$75-$200",
+      "benefits": [
+        "Prevents gum disease",
+        "Fresher breath",
+        "Brighter smile",
+        "Early detection of dental issues"
+      ],
+      "faq": {
+        "frequency": {
+          "question": "How often should I get a dental cleaning?",
+          "answer": "Most dentists recommend getting a professional cleaning every 6 months."
+        },
+        "pain": {
+          "question": "Does dental cleaning hurt?",
+          "answer": "The procedure is generally painless, though you may experience some sensitivity."
+        }
+      }
+    },
+    "braces": {
+      "title": "Braces & Orthodontics",
+      "description": "Comprehensive orthodontic treatment to straighten teeth and improve your smile alignment.",
+      "duration": "18-24 months",
+      "priceRange": "$3,000-$7,000",
+      "benefits": [
+        "Improved smile alignment",
+        "Better oral health",
+        "Enhanced chewing function",
+        "Increased self-confidence"
+      ],
+      "faq": {
+        "types": {
+          "question": "What types of braces are available?",
+          "answer": "We offer traditional metal braces, ceramic braces, and clear aligners."
+        },
+        "duration": {
+          "question": "How long will I need to wear braces?",
+          "answer": "Treatment duration varies, typically 18-24 months depending on your case."
+        }
+      }
+    },
+    "whitening": {
+      "title": "Teeth Whitening",
+      "description": "Professional teeth whitening treatment to brighten your smile and remove stains.",
+      "duration": "1-2 hours",
+      "priceRange": "$300-$600",
+      "benefits": [
+        "Brighter smile",
+        "Removes stains",
+        "Boosts confidence",
+        "Long-lasting results"
+      ],
+      "faq": {
+        "results": {
+          "question": "How long do whitening results last?",
+          "answer": "Results typically last 6-12 months with proper maintenance."
+        },
+        "safety": {
+          "question": "Is teeth whitening safe?",
+          "answer": "Yes, when performed by a dental professional, teeth whitening is safe and effective."
+        }
+      }
+    },
+    "implants": {
+      "title": "Dental Implants",
+      "description": "Permanent solution for missing teeth using titanium implants that look and feel like natural teeth.",
+      "duration": "3-6 months",
+      "priceRange": "$3,000-$5,000 per implant",
+      "benefits": [
+        "Permanent solution",
+        "Natural look and feel",
+        "Preserves jaw bone",
+        "Restores full chewing function"
+      ],
+      "faq": {
+        "lifespan": {
+          "question": "How long do dental implants last?",
+          "answer": "With proper care, dental implants can last a lifetime."
+        },
+        "pain": {
+          "question": "Is the implant procedure painful?",
+          "answer": "The procedure is performed under anesthesia, so you won't feel pain during the process."
+        }
+      }
+    },
+    "emergency": {
+      "title": "Emergency Care",
+      "description": "Immediate dental care for urgent situations such as severe pain, broken teeth, or dental trauma.",
+      "duration": "Varies by case",
+      "priceRange": "$100-$500",
+      "benefits": [
+        "Immediate relief",
+        "Prevents complications",
+        "24/7 availability",
+        "Expert emergency care"
+      ],
+      "faq": {
+        "what": {
+          "question": "What constitutes a dental emergency?",
+          "answer": "Severe pain, broken teeth, lost fillings, or any condition causing significant discomfort."
+        },
+        "hours": {
+          "question": "Do you offer after-hours emergency care?",
+          "answer": "Yes, we provide 24/7 emergency dental services for our patients."
+        }
+      }
+    },
+    "showBeforeAfter": "Show Before/After",
+    "hideBeforeAfter": "Hide Before/After",
+    "before": "Before",
+    "after": "After",
+    "bookNow": "Book Now",
+    "showDetails": "Show Details",
+    "hideDetails": "Hide Details",
+    "benefits": "Benefits",
+    "faq": "FAQ",
+    "contactUs": "Contact Us",
+    "notFound": "Don't see what you're looking for? Contact us to learn more about our services."
+  },
+  "about": {
+    "title": "About Our Clinic",
+    "mission": "At Smile Bright, our mission is to provide top-quality dental care in a friendly, modern environment. We believe everyone deserves a healthy, confident smile.",
+    "history": "Founded in 2010, our clinic has grown into a trusted dental home for families in our community. We combine years of experience with the latest technology to ensure your comfort and care.",
+    "facilityImageAlt": "Our modern dental clinic facility",
+    "facility": {
+      "title": "Modern Facility & Technology",
+      "description": "Our clinic features state-of-the-art equipment, digital x-rays, and a relaxing environment designed for your comfort and safety."
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "dentist1Alt": "Dr. Sarah Johnson - Lead Dentist",
+      "dentist1Role": "Lead Dentist - 15 years of experience",
+      "dentist2Alt": "Dr. Michael Chen - Orthodontist",
+      "dentist2Role": "Orthodontist - Specialist in braces and aligners"
+    },
+    "certifications": {
+      "title": "Certifications & Accreditations",
+      "list": [
+        "Certified by the National Dental Association",
+        "Member of the International Dental Society",
+        "Recipient of the 2022 Excellence in Patient Care Award"
+      ]
+    },
+    "location": {
+      "title": "Our Location",
+      "address": "123 Smile Street, Dental City, Country",
+      "mapAlt": "Map showing our clinic location"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us for any questions or concerns about your dental care.",
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "success": "Thank you for your message! We will get back to you soon.",
+      "error": "Please fill in all fields."
+    },
+    "info": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Business Hours",
+      "emergency": "Emergency Contact"
+    }
+  },
+  "resources": {
+    "title": "Patient Resources",
+    "desc": "Everything you need to know about your dental care journey with us. Download forms, learn about insurance, and find helpful dental care tips.",
+    "helpful": "Was this helpful?"
+  },
+  "dentalHealth": {
+    "title": "Dental Health Education",
+    "procedures": {
+      "title": "Common Procedures Explained",
+      "items": [
+        "Dental Cleanings: Remove plaque and tartar for a healthy smile.",
+        "Fillings: Repair cavities and restore tooth function.",
+        "Crowns: Protect and strengthen damaged teeth.",
+        "Implants: Replace missing teeth with natural-looking results.",
+        "Braces: Align teeth and improve your bite."
+      ]
+    },
+    "hygiene": {
+      "title": "Oral Hygiene Tips",
+      "items": [
+        "Brush twice daily with fluoride toothpaste.",
+        "Floss every day to remove plaque between teeth.",
+        "Limit sugary snacks and drinks.",
+        "Visit your dentist regularly for checkups and cleanings.",
+        "Replace your toothbrush every 3-4 months."
+      ]
+    },
+    "children": {
+      "title": "Children's Dental Care Guide",
+      "items": [
+        "Start brushing as soon as the first tooth appears.",
+        "Use a pea-sized amount of fluoride toothpaste for children over 3.",
+        "Encourage healthy snacks like fruits and veggies.",
+        "Schedule the first dental visit by age 1.",
+        "Teach proper brushing and flossing habits early."
+      ]
+    },
+    "seniors": {
+      "title": "Senior Dental Care Guide",
+      "items": [
+        "Maintain regular dental checkups and cleanings.",
+        "Clean dentures or dental appliances daily.",
+        "Stay hydrated to prevent dry mouth.",
+        "Watch for signs of gum disease or oral cancer.",
+        "Manage medications that may affect oral health."
+      ]
+    },
+    "emergency": {
+      "title": "Emergency Dental Guide",
+      "items": [
+        "For a knocked-out tooth, keep it moist and see a dentist immediately.",
+        "For severe toothache, rinse with warm water and contact your dentist.",
+        "For broken braces or wires, cover sharp ends and seek dental care.",
+        "For lost fillings or crowns, use dental cement and schedule a visit.",
+        "Call your dentist or emergency number for urgent dental issues."
+      ]
+    }
+  },
+  "patientResources": {
+    "title": "Patient Resources",
+    "subtitle": "Everything you need to know about your dental care journey with us. Download forms, learn about insurance, and find helpful dental care tips.",
+    "home": "Home",
+    "resources": "Patient Resources",
+    "search": {
+      "placeholder": "Search resources...",
+      "noResults": "No resources found matching your search criteria."
+    },
+    "categories": {
+      "all": "All Categories",
+      "forms": "Forms",
+      "insurance": "Insurance",
+      "care": "Dental Care",
+      "faq": "FAQ",
+      "emergency": "Emergency"
+    },
+    "recentlyViewed": "Recently Viewed",
+    "buttons": {
+      "viewResources": "View Resources",
+      "hideResources": "Hide Resources",
+      "viewOnline": "View Online",
+      "downloadPDF": "Download PDF",
+      "contactUs": "Contact Us"
+    },
+    "help": {
+      "title": "Need help finding something?",
+      "subtitle": "Contact our office for assistance."
+    },
+    "feedback": {
+      "title": "Was this helpful?",
+      "thankYou": "Thank you for your feedback!"
+    },
+    "forms": {
+      "title": "New Patient Forms",
+      "description": "Download and fill out our new patient forms before your first visit.",
+      "items": [
+        {
+          "name": "Patient Registration Form",
+          "description": "Complete this form to register as a new patient"
+        },
+        {
+          "name": "Medical History Form",
+          "description": "Provide your medical history for better care"
+        },
+        {
+          "name": "Insurance Information Form",
+          "description": "Submit your insurance details"
+        }
+      ]
+    },
+    "insurance": {
+      "title": "Insurance & Payment",
+      "description": "Information about accepted insurance plans and payment options.",
+      "items": [
+        {
+          "name": "Accepted Insurance Plans",
+          "description": "View our list of accepted insurance providers"
+        },
+        {
+          "name": "Payment Plans",
+          "description": "Learn about our flexible payment options"
+        },
+        {
+          "name": "Financing Options",
+          "description": "Explore financing solutions for your dental care"
+        }
+      ]
+    },
+    "care": {
+      "title": "Dental Care Tips",
+      "description": "Helpful tips and guides for maintaining good oral health.",
+      "items": [
+        {
+          "name": "Daily Oral Care Guide",
+          "description": "Learn the best practices for daily oral care"
+        },
+        {
+          "name": "Children's Dental Care",
+          "description": "Special care tips for children's dental health"
+        },
+        {
+          "name": "Senior Dental Care",
+          "description": "Dental care guidance for seniors"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ",
+      "description": "Frequently asked questions about our services and procedures.",
+      "items": [
+        {
+          "name": "General Questions",
+          "description": "Common questions about our dental practice"
+        },
+        {
+          "name": "Treatment Questions",
+          "description": "Questions about specific dental treatments"
+        },
+        {
+          "name": "Insurance Questions",
+          "description": "Frequently asked insurance-related questions"
+        }
+      ]
+    },
+    "emergency": {
+      "title": "Emergency Care",
+      "description": "What to do in case of a dental emergency.",
+      "items": [
+        {
+          "name": "Emergency Contact Information",
+          "description": "24/7 emergency contact details"
+        },
+        {
+          "name": "Common Emergencies",
+          "description": "How to handle common dental emergencies"
+        },
+        {
+          "name": "After-Hours Care",
+          "description": "Information about our after-hours emergency services"
+        }
+      ]
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in to your account",
+      "email": "Email address",
+      "password": "Password",
+      "remember": "Remember me",
+      "forgot": "Forgot password?",
+      "submit": "Sign in",
+      "noAccount": "Don't have an account?",
+      "register": "Create a new account",
+      "signingIn": "Signing in...",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Email is invalid",
+      "passwordRequired": "Password is required",
+      "passwordLength": "Password must be at least 6 characters"
+    },
+    "register": {
+      "title": "Create your account",
+      "name": "Full Name",
+      "email": "Email address",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "phone": "Phone Number",
+      "dob": "Date of Birth",
+      "submit": "Create account",
+      "hasAccount": "Already have an account?",
+      "login": "Sign in to your existing account",
+      "registering": "Creating account...",
+      "nameRequired": "Full name is required",
+      "nameLength": "Name must be at least 3 characters",
+      "nameInvalid": "Name can only contain letters, numbers, and underscores",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Email is invalid",
+      "passwordRequired": "Password is required",
+      "passwordLength": "Password must be at least 6 characters",
+      "passwordInvalid": "Password must contain at least one uppercase letter, one lowercase letter, and one number",
+      "confirmPasswordRequired": "Please confirm your password",
+      "passwordsDoNotMatch": "Passwords do not match",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Please enter a valid phone number",
+      "dobRequired": "Date of birth is required",
+      "dobInvalid": "Please enter a valid date of birth",
+      "registrationFailed": "Registration failed. Please try again."
+    }
+  }
+} 

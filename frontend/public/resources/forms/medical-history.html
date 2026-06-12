@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical History Form - Smile Bright Dental</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2563eb;
+        }
+        .form-section {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 4px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        .checkbox-group {
+            margin: 10px 0;
+        }
+        .signature-line {
+            margin-top: 30px;
+            border-top: 1px solid #000;
+            width: 300px;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 12px;
+            color: #666;
+        }
+        .note {
+            font-style: italic;
+            color: #666;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">Smile Bright Dental</div>
+        <h1>Medical History Form</h1>
+        <p class="note">Please complete this form accurately. Your medical history is important for your dental care.</p>
+    </div>
+
+    <div class="form-section">
+        <h2>Personal Information</h2>
+        <div class="form-group">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName">
+        </div>
+        <div class="form-group">
+            <label for="dob">Date of Birth:</label>
+            <input type="text" id="dob" name="dob">
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Medical Conditions</h2>
+        <p class="note">Please check all that apply:</p>
+        
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="heartDisease"> Heart Disease
+            </label>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="highBloodPressure"> High Blood Pressure
+            </label>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="diabetes"> Diabetes
+            </label>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="asthma"> Asthma
+            </label>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="arthritis"> Arthritis
+            </label>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="thyroid"> Thyroid Disease
+            </label>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="cancer"> Cancer
+            </label>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="hiv"> HIV/AIDS
+            </label>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="hepatitis"> Hepatitis
+            </label>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="tuberculosis"> Tuberculosis
+            </label>
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Allergies</h2>
+        <p class="note">Please list all allergies, including medications, foods, and materials:</p>
+        <div class="form-group">
+            <textarea id="allergies" name="allergies" placeholder="List your allergies here..."></textarea>
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Current Medications</h2>
+        <p class="note">Please list all medications you are currently taking, including over-the-counter medications and supplements:</p>
+        <div class="form-group">
+            <textarea id="medications" name="medications" placeholder="List your medications here..."></textarea>
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Hospitalizations & Surgeries</h2>
+        <p class="note">Please list any hospitalizations or surgeries in the past 5 years:</p>
+        <div class="form-group">
+            <textarea id="hospitalizations" name="hospitalizations" placeholder="List your hospitalizations and surgeries here..."></textarea>
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Women's Health</h2>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="pregnant"> Currently Pregnant
+            </label>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="nursing"> Currently Nursing
+            </label>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="birthControl"> Taking Birth Control
+            </label>
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Additional Information</h2>
+        <p class="note">Please provide any additional information that may be relevant to your dental care:</p>
+        <div class="form-group">
+            <textarea id="additionalInfo" name="additionalInfo" placeholder="Additional information..."></textarea>
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Consent and Authorization</h2>
+        <p>I certify that the above information is accurate and complete. I understand that it is my responsibility to inform the dental office of any changes in my medical history.</p>
+        <div class="signature-line">
+            <p>Patient/Legal Guardian Signature</p>
+        </div>
+        <div class="form-group">
+            <label for="signatureDate">Date:</label>
+            <input type="text" id="signatureDate" name="signatureDate">
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Smile Bright Dental | 123 Dental Street | City, State 12345 | (555) 123-4567</p>
+        <p>This form is confidential and will be used only for your dental care.</p>
+    </div>
+</body>
+</html> 

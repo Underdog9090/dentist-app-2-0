@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Information Form - Smile Bright Dental</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2563eb;
+        }
+        .form-section {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 4px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .checkbox-group {
+            margin: 10px 0;
+        }
+        .signature-line {
+            margin-top: 30px;
+            border-top: 1px solid #000;
+            width: 300px;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 12px;
+            color: #666;
+        }
+        .note {
+            font-style: italic;
+            color: #666;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">Smile Bright Dental</div>
+        <h1>Insurance Information Form</h1>
+        <p class="note">Please complete this form with your insurance information to help us process your claims efficiently.</p>
+    </div>
+
+    <div class="form-section">
+        <h2>Patient Information</h2>
+        <div class="form-group">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName">
+        </div>
+        <div class="form-group">
+            <label for="dob">Date of Birth:</label>
+            <input type="text" id="dob" name="dob">
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Primary Insurance Information</h2>
+        <div class="form-group">
+            <label for="insuranceProvider">Insurance Provider:</label>
+            <input type="text" id="insuranceProvider" name="insuranceProvider">
+        </div>
+        <div class="form-group">
+            <label for="policyNumber">Policy Number:</label>
+            <input type="text" id="policyNumber" name="policyNumber">
+        </div>
+        <div class="form-group">
+            <label for="groupNumber">Group Number:</label>
+            <input type="text" id="groupNumber" name="groupNumber">
+        </div>
+        <div class="form-group">
+            <label for="planType">Plan Type:</label>
+            <input type="text" id="planType" name="planType" placeholder="e.g., PPO, HMO, etc.">
+        </div>
+        <div class="form-group">
+            <label for="subscriberName">Subscriber Name:</label>
+            <input type="text" id="subscriberName" name="subscriberName">
+        </div>
+        <div class="form-group">
+            <label for="subscriberDOB">Subscriber Date of Birth:</label>
+            <input type="text" id="subscriberDOB" name="subscriberDOB">
+        </div>
+        <div class="form-group">
+            <label for="subscriberSSN">Subscriber SSN (Last 4 digits):</label>
+            <input type="text" id="subscriberSSN" name="subscriberSSN" maxlength="4">
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Secondary Insurance Information</h2>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="hasSecondaryInsurance"> I have secondary insurance
+            </label>
+        </div>
+        <div class="form-group">
+            <label for="secondaryProvider">Secondary Insurance Provider:</label>
+            <input type="text" id="secondaryProvider" name="secondaryProvider">
+        </div>
+        <div class="form-group">
+            <label for="secondaryPolicyNumber">Secondary Policy Number:</label>
+            <input type="text" id="secondaryPolicyNumber" name="secondaryPolicyNumber">
+        </div>
+        <div class="form-group">
+            <label for="secondaryGroupNumber">Secondary Group Number:</label>
+            <input type="text" id="secondaryGroupNumber" name="secondaryGroupNumber">
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Additional Information</h2>
+        <div class="form-group">
+            <label for="employer">Employer:</label>
+            <input type="text" id="employer" name="employer">
+        </div>
+        <div class="form-group">
+            <label for="employerPhone">Employer Phone:</label>
+            <input type="tel" id="employerPhone" name="employerPhone">
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="isStudent"> I am a full-time student
+            </label>
+        </div>
+        <div class="form-group">
+            <label for="studentId">Student ID Number:</label>
+            <input type="text" id="studentId" name="studentId">
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Authorization</h2>
+        <p>I authorize Smile Bright Dental to:</p>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="authRelease" checked> Release information to my insurance company
+            </label>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="authPayment" checked> Accept payment directly from my insurance company
+            </label>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="authAssignment" checked> Assign benefits to Smile Bright Dental
+            </label>
+        </div>
+        <p class="note">I understand that I am responsible for any charges not covered by my insurance.</p>
+    </div>
+
+    <div class="form-section">
+        <h2>Signature</h2>
+        <div class="signature-line">
+            <p>Patient/Legal Guardian Signature</p>
+        </div>
+        <div class="form-group">
+            <label for="signatureDate">Date:</label>
+            <input type="text" id="signatureDate" name="signatureDate">
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Smile Bright Dental | 123 Dental Street | City, State 12345 | (555) 123-4567</p>
+        <p>This form is confidential and will be used only for your dental care.</p>
+    </div>
+</body>
+</html> 

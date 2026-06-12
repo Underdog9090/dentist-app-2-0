@@ -1,0 +1,67 @@
+{
+  "common": {
+    "home": "Nyumbani",
+    "about": "Kuhusu",
+    "services": "Huduma",
+    "appointments": "Mikutano",
+    "contact": "Wasiliana",
+    "login": "Ingia",
+    "logout": "Toka",
+    "register": "Jisajili",
+    "language": "Lugha"
+  },
+  "home": {
+    "welcome": "Karibu kwenye Smile Bright",
+    "subtitle": "Kliniki ya meno ya kisasa na huduma bora",
+    "bookAppointment": "Panga Mikutano",
+    "learnMore": "Jifunze Zaidi"
+  },
+  "services": {
+    "title": "Huduma Zetu",
+    "generalDentistry": "Daktari wa Meno wa Jumla",
+    "cosmeticDentistry": "Daktari wa Meno wa Urembo",
+    "orthodontics": "Orthodontics",
+    "pediatricDentistry": "Daktari wa Meno wa Watoto",
+    "emergencyCare": "Huduma ya Dharura"
+  },
+  "appointments": {
+    "title": "Panga Mikutano",
+    "selectDate": "Chagua Tarehe",
+    "selectTime": "Chagua Muda",
+    "selectService": "Chagua Huduma",
+    "bookNow": "Panga Sasa",
+    "confirmation": "Mikutano Yako Imethibitishwa"
+  },
+  "contact": {
+    "title": "Wasiliana Nasi",
+    "name": "Jina",
+    "email": "Barua pepe",
+    "phone": "Simu",
+    "message": "Ujumbe",
+    "send": "Tuma",
+    "address": "Anwani",
+    "hours": "Masaa ya Kazi"
+  },
+  "patientResources": {
+    "title": "Rasilimali za Wagonjwa",
+    "download": "Pakua",
+    "view": "Ona",
+    "search": "Tafuta",
+    "recentlyViewed": "Iliyotazamwa Hivi Karibuni",
+    "categories": {
+      "forms": "Fomu",
+      "guides": "Mwongozo",
+      "faq": "Maswali Yanayoulizwa Mara kwa Mara",
+      "emergency": "Maelezo ya Dharura"
+    }
+  },
+  "auth": {
+    "login": "Ingia",
+    "register": "Jisajili",
+    "forgotPassword": "Umesahau Nywila?",
+    "resetPassword": "Weka upya Nywila",
+    "email": "Barua pepe",
+    "password": "Nywila",
+    "confirmPassword": "Thibitisha Nywila"
+  }
+} 

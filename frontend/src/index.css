@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark mode overrides for react-big-calendar */
+@media (prefers-color-scheme: dark) {
+  .rbc-calendar, .rbc-month-view, .rbc-time-view, .rbc-agenda-view, .rbc-header, .rbc-row-content, .rbc-timeslot-group, .rbc-time-content, .rbc-time-header, .rbc-time-gutter, .rbc-event, .rbc-event-content, .rbc-event-label, .rbc-date-cell, .rbc-day-bg, .rbc-today, .rbc-off-range-bg, .rbc-toolbar, .rbc-agenda-table, .rbc-agenda-content, .rbc-agenda-time-cell, .rbc-agenda-date-cell {
+    background-color: #23293a !important;
+    color: #e5e7eb !important;
+    border-color: #374151 !important;
+  }
+  .rbc-header, .rbc-toolbar-label, .rbc-agenda-table th {
+    color: #f3f4f6 !important;
+  }
+  .rbc-event, .rbc-event-content, .rbc-event-label {
+    background-color: #2563eb !important;
+    color: #f3f4f6 !important;
+    border-color: #1e40af !important;
+  }
+  .rbc-today {
+    background-color: #1e293b !important;
+  }
+  .rbc-off-range-bg {
+    background-color: #1e293b !important;
+  }
+  .rbc-agenda-table td, .rbc-agenda-table th {
+    border-color: #374151 !important;
+  }
+  .rbc-time-gutter, .rbc-timeslot-group, .rbc-time-header-gutter, .rbc-timeslot {
+    color: #f3f4f6 !important;
+  }
+  .rbc-event-content, .rbc-event-label {
+    color: #f3f4f6 !important;
+  }
+}

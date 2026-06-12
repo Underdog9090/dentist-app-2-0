@@ -1,0 +1,360 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "dentalHealth": "Salud Dental",
+    "resources": "Recursos",
+    "contact": "Contacto",
+    "bookAppointment": "Reservar Cita",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "myAppointments": "Mis Citas",
+    "profile": "Perfil",
+    "staffDashboard": "Panel de Personal",
+    "dashboard": "Panel de Control",
+    "staff": "Personal",
+    "messages": "Mensajes",
+    "logout": "Cerrar Sesión",
+    "welcome": "Bienvenido",
+    "skipToContent": "Ir al contenido principal"
+  },
+  "home": {
+    "heroTitle": "Dental",
+    "heroSubtitle": "Reserva tu Visita Hoy",
+    "heroText": "Programa una cita con nuestro amable dentista.",
+    "bookNow": "Reservar Ahora",
+    "dentalServices": "Servicios Dentales",
+    "whyChooseUs": "Por Qué Elegirnos",
+    "expertDentists": {
+      "title": "Dentistas Expertos",
+      "description": "Nuestro equipo de profesionales experimentados está dedicado a proporcionar la mejor atención dental."
+    },
+    "modernTechnology": {
+      "title": "Tecnología Moderna",
+      "description": "Equipos y técnicas de última generación para una atención dental óptima."
+    },
+    "easyBooking": {
+      "title": "Reservas Fáciles",
+      "description": "Sistema de reserva en línea simple para tu conveniencia."
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios Dentales",
+    "subtitle": "Ofrecemos una amplia gama de servicios dentales para satisfacer todas sus necesidades de salud bucal. Nuestro equipo experimentado utiliza la última tecnología para brindar la mejor atención posible.",
+    "cleaning": {
+      "title": "Limpieza Dental",
+      "description": "Limpieza dental profesional para eliminar la placa y el sarro, prevenir enfermedades de las encías y mantener la salud bucal.",
+      "duration": "45-60 minutos",
+      "priceRange": "75-200€",
+      "benefits": [
+        "Previene enfermedades de las encías",
+        "Aliento más fresco",
+        "Sonrisa más brillante",
+        "Detección temprana de problemas dentales"
+      ],
+      "faq": {
+        "frequency": {
+          "question": "¿Con qué frecuencia debo hacerme una limpieza dental?",
+          "answer": "La mayoría de los dentistas recomiendan una limpieza profesional cada 6 meses."
+        },
+        "pain": {
+          "question": "¿Duele la limpieza dental?",
+          "answer": "El procedimiento generalmente es indoloro, aunque puede experimentar cierta sensibilidad."
+        }
+      }
+    },
+    "braces": {
+      "title": "Ortodoncia",
+      "description": "Tratamiento ortodóntico completo para enderezar los dientes y mejorar la alineación de su sonrisa.",
+      "duration": "18-24 meses",
+      "priceRange": "3000-7000€",
+      "benefits": [
+        "Mejor alineación de la sonrisa",
+        "Mejor salud bucal",
+        "Función masticatoria mejorada",
+        "Mayor confianza en sí mismo"
+      ],
+      "faq": {
+        "types": {
+          "question": "¿Qué tipos de ortodoncia están disponibles?",
+          "answer": "Ofrecemos brackets metálicos tradicionales, brackets cerámicos y alineadores transparentes."
+        },
+        "duration": {
+          "question": "¿Cuánto tiempo necesitaré usar ortodoncia?",
+          "answer": "La duración del tratamiento varía, típicamente 18-24 meses dependiendo de su caso."
+        }
+      }
+    },
+    "whitening": {
+      "title": "Blanqueamiento Dental",
+      "description": "Tratamiento profesional de blanqueamiento dental para aclarar su sonrisa y eliminar manchas.",
+      "duration": "1-2 horas",
+      "priceRange": "300-600€",
+      "benefits": [
+        "Sonrisa más brillante",
+        "Elimina manchas",
+        "Aumenta la confianza",
+        "Resultados duraderos"
+      ],
+      "faq": {
+        "results": {
+          "question": "¿Cuánto duran los resultados del blanqueamiento?",
+          "answer": "Los resultados suelen durar 6-12 meses con el mantenimiento adecuado."
+        },
+        "safety": {
+          "question": "¿Es seguro el blanqueamiento dental?",
+          "answer": "Sí, cuando lo realiza un profesional dental, el blanqueamiento es seguro y efectivo."
+        }
+      }
+    },
+    "implants": {
+      "title": "Implantes Dentales",
+      "description": "Solución permanente para dientes faltantes utilizando implantes de titanio que se ven y sienten como dientes naturales.",
+      "duration": "3-6 meses",
+      "priceRange": "3000-5000€ por implante",
+      "benefits": [
+        "Solución permanente",
+        "Aspecto y sensación natural",
+        "Preserva el hueso de la mandíbula",
+        "Restaura la función masticatoria completa"
+      ],
+      "faq": {
+        "lifespan": {
+          "question": "¿Cuánto duran los implantes dentales?",
+          "answer": "Con el cuidado adecuado, los implantes dentales pueden durar toda la vida."
+        },
+        "pain": {
+          "question": "¿Es doloroso el procedimiento de implante?",
+          "answer": "El procedimiento se realiza bajo anestesia, por lo que no sentirá dolor durante el proceso."
+        }
+      }
+    },
+    "emergency": {
+      "title": "Atención de Emergencia",
+      "description": "Atención dental inmediata para situaciones urgentes como dolor severo, dientes rotos o trauma dental.",
+      "duration": "Varía según el caso",
+      "priceRange": "100-500€",
+      "benefits": [
+        "Alivio inmediato",
+        "Previene complicaciones",
+        "Disponibilidad 24/7",
+        "Atención de emergencia experta"
+      ],
+      "faq": {
+        "what": {
+          "question": "¿Qué constituye una emergencia dental?",
+          "answer": "Dolor severo, dientes rotos, empastes perdidos o cualquier condición que cause malestar significativo."
+        },
+        "hours": {
+          "question": "¿Ofrecen atención de emergencia fuera del horario normal?",
+          "answer": "Sí, proporcionamos servicios dentales de emergencia 24/7 para nuestros pacientes."
+        }
+      }
+    },
+    "showBeforeAfter": "Mostrar Antes/Después",
+    "hideBeforeAfter": "Ocultar Antes/Después",
+    "before": "Antes",
+    "after": "Después",
+    "bookNow": "Reservar Ahora",
+    "showDetails": "Mostrar Detalles",
+    "hideDetails": "Ocultar Detalles",
+    "benefits": "Beneficios",
+    "faq": "Preguntas Frecuentes",
+    "contactUs": "Contáctenos",
+    "notFound": "¿No encuentra lo que busca? Contáctenos para obtener más información sobre nuestros servicios."
+  },
+  "dentalHealth": {
+    "title": "Educación en Salud Dental",
+    "procedures": {
+      "title": "Procedimientos Comunes Explicados",
+      "items": [
+        "Limpiezas Dentales: Eliminan la placa y el sarro para una sonrisa saludable.",
+        "Empastes: Reparan caries y restauran la función dental.",
+        "Coronas: Protegen y fortalecen dientes dañados.",
+        "Implantes: Reemplazan dientes faltantes con resultados naturales.",
+        "Ortodoncia: Alinean los dientes y mejoran la mordida."
+      ]
+    },
+    "hygiene": {
+      "title": "Consejos de Higiene Oral",
+      "items": [
+        "Cepíllese dos veces al día con pasta dental con flúor.",
+        "Use hilo dental todos los días para eliminar la placa entre los dientes.",
+        "Limite los snacks y bebidas azucaradas.",
+        "Visite a su dentista regularmente para revisiones y limpiezas.",
+        "Reemplace su cepillo de dientes cada 3-4 meses."
+      ]
+    },
+    "children": {
+      "title": "Guía de Cuidado Dental para Niños",
+      "items": [
+        "Comience a cepillar tan pronto como aparezca el primer diente.",
+        "Use una cantidad del tamaño de un guisante de pasta dental con flúor para niños mayores de 3 años.",
+        "Fomente snacks saludables como frutas y verduras.",
+        "Programe la primera visita al dentista a la edad de 1 año.",
+        "Enseñe hábitos adecuados de cepillado y uso de hilo dental temprano."
+      ]
+    },
+    "seniors": {
+      "title": "Guía de Cuidado Dental para Adultos Mayores",
+      "items": [
+        "Mantenga revisiones y limpiezas dentales regulares.",
+        "Limpie dentaduras o aparatos dentales diariamente.",
+        "Manténgase hidratado para prevenir la boca seca.",
+        "Esté atento a signos de enfermedad de las encías o cáncer oral.",
+        "Maneje medicamentos que puedan afectar la salud oral."
+      ]
+    },
+    "emergency": {
+      "title": "Guía de Emergencias Dentales",
+      "items": [
+        "Para un diente caído, manténgalo húmedo y vea a un dentista inmediatamente.",
+        "Para dolor severo, enjuague con agua tibia y contacte a su dentista.",
+        "Para brackets o alambres rotos, cubra los extremos afilados y busque atención dental.",
+        "Para empastes o coronas perdidas, use cemento dental y programe una visita.",
+        "Llame a su dentista o número de emergencia para problemas dentales urgentes."
+      ]
+    }
+  },
+  "patientResources": {
+    "title": "Recursos para Pacientes",
+    "subtitle": "Todo lo que necesita saber sobre su viaje de cuidado dental con nosotros. Descargue formularios, aprenda sobre seguros y encuentre consejos útiles de cuidado dental.",
+    "home": "Inicio",
+    "resources": "Recursos para Pacientes",
+    "forms": {
+      "title": "Formularios para Nuevos Pacientes",
+      "description": "Descargue y complete nuestros formularios para nuevos pacientes antes de su primera visita.",
+      "items": [
+        {
+          "name": "Formulario de Registro de Paciente",
+          "description": "Complete este formulario para registrarse como nuevo paciente"
+        },
+        {
+          "name": "Formulario de Historial Médico",
+          "description": "Proporcione su historial médico para una mejor atención"
+        },
+        {
+          "name": "Formulario de Información de Seguro",
+          "description": "Envíe sus detalles de seguro"
+        }
+      ]
+    },
+    "insurance": {
+      "title": "Seguro y Pago",
+      "description": "Información sobre planes de seguro aceptados y opciones de pago.",
+      "items": [
+        {
+          "name": "Planes de Seguro Aceptados",
+          "description": "Vea nuestra lista de proveedores de seguros aceptados"
+        },
+        {
+          "name": "Planes de Pago",
+          "description": "Conozca nuestras opciones de pago flexibles"
+        },
+        {
+          "name": "Opciones de Financiamiento",
+          "description": "Explore soluciones de financiamiento para su cuidado dental"
+        }
+      ]
+    },
+    "care": {
+      "title": "Consejos de Cuidado Dental",
+      "description": "Consejos y guías útiles para mantener una buena salud oral.",
+      "items": [
+        {
+          "name": "Guía de Cuidado Oral Diario",
+          "description": "Aprenda las mejores prácticas para el cuidado oral diario"
+        },
+        {
+          "name": "Cuidado Dental para Niños",
+          "description": "Consejos especiales para la salud dental de los niños"
+        },
+        {
+          "name": "Cuidado Dental para Mayores",
+          "description": "Guía de cuidado dental para personas mayores"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "description": "Preguntas frecuentes sobre nuestros servicios y procedimientos.",
+      "items": [
+        {
+          "name": "Preguntas Generales",
+          "description": "Preguntas comunes sobre nuestra clínica dental"
+        },
+        {
+          "name": "Preguntas sobre Tratamientos",
+          "description": "Preguntas sobre tratamientos dentales específicos"
+        },
+        {
+          "name": "Preguntas sobre Seguros",
+          "description": "Preguntas frecuentes relacionadas con seguros"
+        }
+      ]
+    },
+    "emergency": {
+      "title": "Atención de Emergencia",
+      "description": "Qué hacer en caso de una emergencia dental.",
+      "items": [
+        {
+          "name": "Información de Contacto de Emergencia",
+          "description": "Detalles de contacto de emergencia 24/7"
+        },
+        {
+          "name": "Emergencias Comunes",
+          "description": "Cómo manejar emergencias dentales comunes"
+        },
+        {
+          "name": "Atención Fuera de Horario",
+          "description": "Información sobre nuestros servicios de emergencia fuera de horario"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "Póngase en contacto con nosotros para cualquier pregunta o inquietud sobre su cuidado dental.",
+    "form": {
+      "title": "Envíenos un Mensaje",
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "phone": "Teléfono",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "send": "Enviar Mensaje",
+      "success": "¡Gracias por su mensaje! Nos pondremos en contacto con usted pronto.",
+      "error": "Por favor complete todos los campos."
+    },
+    "info": {
+      "address": "Dirección",
+      "phone": "Teléfono",
+      "email": "Correo Electrónico",
+      "hours": "Horario de Atención",
+      "emergency": "Contacto de Emergencia"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Iniciar Sesión",
+      "email": "Correo Electrónico",
+      "password": "Contraseña",
+      "remember": "Recordarme",
+      "forgot": "¿Olvidó su contraseña?",
+      "submit": "Iniciar Sesión",
+      "noAccount": "¿No tiene una cuenta?",
+      "register": "Regístrese aquí"
+    },
+    "register": {
+      "title": "Registrarse",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "password": "Contraseña",
+      "confirmPassword": "Confirmar Contraseña",
+      "submit": "Registrarse",
+      "hasAccount": "¿Ya tiene una cuenta?",
+      "login": "Inicie sesión aquí"
+    }
+  }
+} 

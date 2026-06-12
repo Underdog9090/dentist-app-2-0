@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Registration Form - Smile Bright Dental</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2563eb;
+        }
+        .form-section {
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .checkbox-group {
+            margin: 10px 0;
+        }
+        .signature-line {
+            margin-top: 30px;
+            border-top: 1px solid #000;
+            width: 300px;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">Smile Bright Dental</div>
+        <h1>Patient Registration Form</h1>
+    </div>
+
+    <div class="form-section">
+        <h2>Personal Information</h2>
+        <div class="form-group">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName">
+        </div>
+        <div class="form-group">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+        </div>
+        <div class="form-group">
+            <label for="gender">Gender:</label>
+            <input type="text" id="gender" name="gender">
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Contact Information</h2>
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address">
+        </div>
+        <div class="form-group">
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+        </div>
+        <div class="form-group">
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state">
+        </div>
+        <div class="form-group">
+            <label for="zip">ZIP Code:</label>
+            <input type="text" id="zip" name="zip">
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Emergency Contact</h2>
+        <div class="form-group">
+            <label for="emergencyName">Name:</label>
+            <input type="text" id="emergencyName" name="emergencyName">
+        </div>
+        <div class="form-group">
+            <label for="emergencyPhone">Phone Number:</label>
+            <input type="tel" id="emergencyPhone" name="emergencyPhone">
+        </div>
+        <div class="form-group">
+            <label for="emergencyRelation">Relationship:</label>
+            <input type="text" id="emergencyRelation" name="emergencyRelation">
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Insurance Information</h2>
+        <div class="form-group">
+            <label for="insuranceProvider">Insurance Provider:</label>
+            <input type="text" id="insuranceProvider" name="insuranceProvider">
+        </div>
+        <div class="form-group">
+            <label for="policyNumber">Policy Number:</label>
+            <input type="text" id="policyNumber" name="policyNumber">
+        </div>
+        <div class="form-group">
+            <label for="groupNumber">Group Number:</label>
+            <input type="text" id="groupNumber" name="groupNumber">
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Dental History</h2>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="previousDentalWork"> Previous dental work
+            </label>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="dentalAnxiety"> Dental anxiety
+            </label>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="currentPain"> Current dental pain
+            </label>
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Medical History</h2>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="heartDisease"> Heart disease
+            </label>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="diabetes"> Diabetes
+            </label>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="highBloodPressure"> High blood pressure
+            </label>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="allergies"> Allergies
+            </label>
+        </div>
+        <div class="form-group">
+            <label for="medications">Current Medications:</label>
+            <input type="text" id="medications" name="medications">
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Consent and Authorization</h2>
+        <p>I authorize Smile Bright Dental to perform necessary dental services and agree to pay for all services rendered. I understand that I am responsible for any charges not covered by my insurance.</p>
+        <div class="signature-line">
+            <p>Patient/Legal Guardian Signature</p>
+        </div>
+        <div class="form-group">
+            <label for="signatureDate">Date:</label>
+            <input type="date" id="signatureDate" name="signatureDate">
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Smile Bright Dental | 123 Dental Street | City, State 12345 | (555) 123-4567</p>
+        <p>This form is confidential and will be used only for your dental care.</p>
+    </div>
+</body>
+</html> 
